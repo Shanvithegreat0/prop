@@ -1,0 +1,193 @@
+
+<!-- saved from url=(0022)http://localhost:5500/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>PropClean</title>
+        <link rel="stylesheet" href="./PropClean_files/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com/">
+        <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+        <link href="./PropClean_files/css2" rel="stylesheet">
+    </head>
+    <body class="vsc-initialized" data-new-gr-c-s-check-loaded="14.1192.0" data-gr-ext-installed="">
+        <div class="Home">
+            <div class="navbar">
+                <div class="logo"><img src="./PropClean_files/logo.png" alt="PropClean Logo"></div>
+                <ul class="navul">
+                    <li class="navli"><a class="nava" href="http://localhost:5500/#">Home</a></li>
+                    <li class="navli"><a class="nava" href="http://localhost:5500/#">Features</a></li>
+                    <li class="navli"><a class="nava" href="http://localhost:5500/#">App</a></li>
+                    <li class="navli"><a class="nava" href="http://localhost:5500/#">Pricing</a></li>
+                    <li class="navli"><a class="nava" href="http://localhost:5500/#">FAQs</a></li>
+                    <li class="navli"><a class="nava" href="http://localhost:5500/#">Contact</a></li>
+                </ul>
+                <div class="login">
+                    <button class="login">Login</button>
+                </div>
+            </div>
+            <div class="home1">
+                <div class="heading">PropClean</div>
+                <div class="points">
+                    <ul class="pointsul">
+                        <li class="pointsli">Clean Spaces</li>
+                        <li class="pointsli">Compliant Places</li>
+                    </ul>
+                </div>
+                <div class="subheading">
+                    Your All-in-One Solution for Coworking Space <br>Compliance and Streamline your Workspace<br> Maintenance with Real-Time Monitoring
+                </div>
+                <form class="subscribe-form">
+                    <input type="email" placeholder="info@yourmail.com">
+                    <button type="submit">Start free trial</button>
+                </form>                
+            </div>
+            <div class="mobile-image">
+                <img src="./PropClean_files/Rectangle.png" alt="Mobile App">
+            </div>
+        </div>
+
+        <!-- New Section for Statistics -->
+        <div class="stats-section">
+            <div class="stat-item">
+                <div class="stat-number" data-target="100">100</div>
+                <div class="stat-label">Users</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" data-target="230">230</div>
+                <div class="stat-label">Downloads</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" data-target="900">900</div>
+                <div class="stat-label">Customers</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" data-target="120">120</div>
+                <div class="stat-label">Developers</div>
+            </div>
+        </div>
+
+        <div class="about-section">
+            <h2 class="about-title">What Makes PropClean Different?</h2>
+            <p class="about-subtitle">
+                Manage and monitor your spaces effortlessly with PropClean. Real-time updates, efficient task tracking, and automated stock management—all in one powerful app.
+            </p>
+            <div class="about-content">
+                <div class="about-left animated-left animate">
+                    <ul class="about-features">
+                        <li class="about-feature">
+                            <h3>Fully functional</h3>
+                            <p>Fully integrated solution that streamlines workspace management, ensuring efficient task handling from start to finish.</p>
+                        </li>
+                        <li class="about-feature">
+                            <h3>Stock Management</h3>
+                            <p>Never run out of essential supplies. PropClean tracks your inventory and alerts you when it’s time to reorder, ensuring you’re always prepared.</p>
+                        </li>
+                        <li class="about-feature">
+                            <h3>Secure Data</h3>
+                            <p>All data is encrypted and secured, ensuring that only authorized users can access sensitive information. Your workspace’s privacy is our top priority.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="about-image-wrapper">
+                    <img src="./PropClean_files/about.png" alt="PropClean Features" class="about-image">
+                </div>
+                <div class="about-right animated-right animate">
+                    <ul class="about-features">
+                        <li class="about-feature">
+                            <h3>Real-Time Dashboard</h3>
+                            <p>Get a clear overview of all ongoing and completed tasks in one place, allowing for easy management and quick decision-making.</p>
+                        </li>
+                        <li class="about-feature">
+                            <h3>User-Friendly Interface</h3>
+                            <p>Designed with simplicity in mind, the app is easy to navigate, ensuring that both staff and admins can use it effectively with minimal training.</p>
+                        </li>
+                        <li class="about-feature">
+                            <h3>Real-Time Monitoring</h3>
+                            <p>Keep your spaces clean and compliant with photo-based updates. Supervisors can remotely monitor tasks and ensure standards are met without needing to be on-site.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        
+        <script src="./PropClean_files/script.js.download"></script>
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+    const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add("animate");
+                observer.unobserve(entry.target);  // Stop observing once the animation is triggered
+            }
+        });
+    }, {
+        threshold: 0.1  // Trigger when 10% of the section is visible
+    });
+
+    document.querySelectorAll('.about-left, .about-right').forEach(section => {
+        observer.observe(section);
+    });
+});
+
+
+        </script>
+    <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"><template shadowrootmode="open"><style>
+      div.grammarly-desktop-integration {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select:none;
+        user-select:none;
+      }
+
+      div.grammarly-desktop-integration:before {
+        content: attr(data-content);
+      }
+    </style><div aria-label="grammarly-integration" role="group" tabindex="-1" class="grammarly-desktop-integration" data-content="{&quot;mode&quot;:&quot;full&quot;,&quot;isActive&quot;:true,&quot;isUserDisabled&quot;:false}"></div></template></grammarly-desktop-integration></html>
